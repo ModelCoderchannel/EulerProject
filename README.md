@@ -5,7 +5,7 @@ Tackling problems from Project Euler, explaining solutions, sharing step-by-step
 
 ## Introduction
 
-You can fin the Euler project peroblem from the https://projecteuler.net/
+You can find the Euler project peroblem from the https://projecteuler.net/
 
 ## Features
 
