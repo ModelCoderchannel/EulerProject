@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+// Function to count Fibonacci numbers under a given limit
+int countFibonacciNumbersUnderLimit(int limit) {
+    double phi = (1 + sqrt(5)) / 2;
+    int n = floor(log(limit * sqrt(5) + 0.5) / log(phi)) - 1;
+    return n;
+}
+
+int main() {
+    // Example: Find how many Fibonacci numbers are under 4 million
+    int limit = 4000000;
+    int result = countFibonacciNumbersUnderLimit(limit);
+    std::cout << "The number of Fibonacci numbers under " << limit << " is: " << result << std::endl;
+
+    return 0;
+}
